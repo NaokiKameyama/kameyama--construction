@@ -120,8 +120,9 @@
   .vison-image {
     margin-top: 50px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
+    border: 2px solid #ffffff;
   }
 
   .vision-theme{
@@ -273,12 +274,12 @@
   
     .kiso {
       margin: auto;
-      width: 350px;
+      width: 300px;
     }
   
     .kiso-image{
       border-radius: 8px;
-      width: 350px;
+      width: 300px;
       margin: auto;
     }
 
