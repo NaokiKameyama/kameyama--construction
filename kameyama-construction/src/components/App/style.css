@@ -4,11 +4,10 @@
     margin: auto auto;
     background-color: #486d46; /* 背景色 */
     /* background-image: url("~@/assets/hayate.jpg"); */
-    background-image: url("~@/assets/home.webp");
-    background-size: cover; 
-    background-attachment: fixed; /* 固定 */
+    background-image: url("~@/assets/home.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
     background-position: center center; /* 縦横中央 */
-  
     display: flex;
     justify-content: center; /*左右中央揃え*/
     align-items: center; /*上下中央揃え*/
@@ -140,7 +139,7 @@
   .company-discription-container {
     background-image: url("~@/assets/hayate3.png");
     background-size: cover; 
-    background-attachment: fixed; /* 固定 */
+    /* background-attachment: fixed; */
     padding-top: 50px;
   }
   
@@ -164,7 +163,7 @@
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 50px;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff7a;
   }
   
   table{
@@ -173,7 +172,7 @@
   }
   
   table tr{
-    border-bottom: solid 2px white;
+    border-bottom: solid 1px #ffffff7a;
   }
   
   table tr:last-child{
@@ -207,7 +206,7 @@
     text-align: left;
     width: 30%;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1a2;
     padding: 10px 0;
     font-weight: bolder;
   }
@@ -236,7 +235,7 @@
     }
   
     .sub-title {
-      font-size: 5vw;
+      font-size: 4.5vw;
     }
 
 
@@ -342,7 +341,7 @@
     border-bottom: double;
     width: 50%;
     text-align: center;
-    color: #52c2d0;
+    color: #ffffff;
     font-weight: bolder;
     font-size: 30px;
     margin-top: 30px;
@@ -361,10 +360,6 @@
   table{
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  table tr{
-    border-bottom: solid 2px white;
   }
   
   table tr:last-child{
@@ -398,7 +393,6 @@
     text-align: left;
     width: 30%;
     text-align: center;
-    background-color: #eee;
     padding: 10px 0;
     font-weight: bolder;
   }
