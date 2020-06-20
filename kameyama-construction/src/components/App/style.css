@@ -3,8 +3,9 @@
     width: 100vw;
     margin: auto auto;
     background-color: #486d46; /* 背景色 */
-    background-image: url("~@/assets/hayate.jpg"); /* 画像 */
-    background-size: cover; /* 全画面 */
+    /* background-image: url("~@/assets/hayate.jpg"); */
+    background-image: url("~@/assets/home.webp");
+    background-size: cover; 
     background-attachment: fixed; /* 固定 */
     background-position: center center; /* 縦横中央 */
   
@@ -39,12 +40,14 @@
   
   .sub-title {
     font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .business-container {
+   
   }
   
-  .company-discription-container {
-  }
-  
-  .company-discription-title {
+  .business-title {
     border-bottom: double;
     width: 30%;
     text-align: center;
@@ -55,6 +58,104 @@
     text-align: center;
     margin-left:auto;
     margin-right:auto;
+    padding-top: 30px;
+  }
+
+  .business-discription {
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .business-discription-text {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .kiso {
+    margin: auto;
+    width: 450px;
+  }
+
+  .kiso-image{
+    border-radius: 8px;
+    width: 450px;
+    margin: auto;
+  }
+
+
+
+  .feature-container {
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    padding-bottom: 50px;
+  }
+
+  .feature-title {
+    border-bottom: double;
+    width: 30%;
+    text-align: center;
+    color: #52c2d0;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 40px;
+  }
+
+  .vision-container {
+    display: flex;
+    justify-content: center;
+  }
+  .vision {
+    width:30%;
+    text-align: center;
+    /* margin: auto; */
+  }
+
+  .vison-image {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .vision-theme{
+    margin-top: 20px;
+    color: #52c2d0;
+  }
+
+  .vision-discription {
+    width:80%;
+    margin: auto;
+    text-align: left;
+    color: #5a5a5a;
+  }
+
+  .company-discription-container {
+    background-image: url("~@/assets/hayate3.png");
+    background-size: cover; 
+    background-attachment: fixed; /* 固定 */
+    padding-top: 50px;
+  }
+  
+  .company-discription-title {
+    border-bottom: double;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 30px;
   }
   
   .table-container{
@@ -62,7 +163,8 @@
     width: 50%;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #ffffff;
   }
   
   table{
@@ -105,11 +207,19 @@
     text-align: left;
     width: 30%;
     text-align: center;
-    background-color: #eee;
+    background-color: #f1f1f1;
     padding: 10px 0;
     font-weight: bolder;
   }
-  
+
+  footer{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+
   /*以下、レスポンシブデザイン用CSS*/
   @media screen and (max-width: 700px) {
     /*スマホ用のcssを記述*/
@@ -128,6 +238,102 @@
     .sub-title {
       font-size: 5vw;
     }
+
+
+    .business-container {
+   
+    }
+    
+    .business-title {
+      border-bottom: double;
+      width: 80%;
+      text-align: center;
+      color: #52c2d0;
+      font-weight: bolder;
+      font-size: 40px;
+      margin-top: 30px;
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top: 30px;
+    }
+  
+    .business-discription {
+      /* display: flex;
+      justify-content: center; */
+    }
+  
+    .business-discription-text {
+      font-size: 18px;
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .kiso {
+      margin: auto;
+      width: 350px;
+    }
+  
+    .kiso-image{
+      border-radius: 8px;
+      width: 350px;
+      margin: auto;
+    }
+
+
+
+
+    .feature-container {
+      margin-top: 30px;
+    }
+  
+    .feature-title {
+      border-bottom: double;
+      width: 65%;
+      text-align: center;
+      color: #52c2d0;
+      font-weight: bolder;
+      font-size: 35px;
+      margin-top: 30px;
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top: 40px;
+    }
+  
+    .vision-container {
+      display: block;
+    }
+    .vision {
+      width:90%;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  
+    .vison-image {
+      margin-top: 50px;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+  
+    .vision-theme{
+      margin-top: 20px;
+      color: #52c2d0;
+    }
+  
+    .vision-discription {
+      width:80%;
+      margin: auto;
+      text-align: left;
+      color: #5a5a5a;
+    }
+
+
   
     .company-discription-container {
   }
@@ -150,7 +356,6 @@
     width: 80%;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 30px;
   }
   
   table{
